@@ -268,9 +268,10 @@ skillVideoRender = (profile_video) =>{
   let htmlText = "";
   profile_video.map((videoData)=>{
       htmlText += `
-      <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://icircles.app/uploads/user/${username}/${videoData.video}"> <i class="fas fa-play-circle"></i></a>
+      <a target="_blank" class="venobox" data-autoplay="true" data-vbtype="video" href="https://icircles.app/uploads/video/${videoData.video}"> <i class="fas fa-play-circle"></i></a>
       `
   });
+
   document.getElementById("skillVideo").innerHTML = htmlText;
 };
 
