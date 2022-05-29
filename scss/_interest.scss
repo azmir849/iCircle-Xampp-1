@@ -1,0 +1,41 @@
+.interest{
+    padding: 130px 0;
+    background-color: $home_bg;
+    .interest_head{
+        h4{
+            color: $pink;
+            font-size: 24px;
+            font-weight:700;
+            font-family: $robot;
+            text-transform: uppercase;
+        }
+        h5{
+            color: $black;
+            font-size: 36px;
+            font-weight:700;
+            padding-top: 32px;
+        }
+    }
+    .interest_wrapper{
+        padding-top: 80px;
+    .interest_item{
+        img{
+            width: 100%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+          }
+          .img_title{
+              text-align: center;
+              padding: 22px 0;
+              box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.1);
+              border-bottom-left-radius: 10px;
+              border-bottom-right-radius: 10px;
+              span{
+                  color: $black;
+                  font-size: 24px;
+                  font-weight:700;
+              }
+          }
+    }
+    }
+}

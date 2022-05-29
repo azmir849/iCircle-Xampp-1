@@ -1,0 +1,39 @@
+.header{
+    padding: 45px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    
+    .header_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header_right{
+             a{
+                font-size: 20px;
+                font-weight: 400;
+                color: $white;
+                padding-right: 10px; 
+             }
+             span{
+                font-size: 24px;
+                font-weight: 400;
+                color: $white;
+                cursor: pointer;
+             }
+        }
+    }
+}
+.newclass{
+    background-color: black ;
+    padding: 20px 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+}

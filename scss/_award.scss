@@ -1,0 +1,80 @@
+.award{
+    padding: 130px 0;
+    background-color: $home_bg;
+    .award_head{
+        padding-bottom: 40px;
+        h4{
+            color: $pink;
+            font-size: 24px;
+            font-weight:700;
+            font-family: $robot;
+            text-transform: uppercase;
+        }
+        h5{
+            color: $black;
+            font-size: 36px;
+            font-weight:700;
+            padding-top: 28px;
+        }
+    }
+    .award_wrapper{
+           .award_container{
+               margin-top: 40px;
+               padding: 30px 50px 10px 50px;
+               background-color: #ffffff;
+               box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.1);
+               border-radius: 10px;
+               -webkit-border-radius: 10px;
+               -moz-border-radius: 10px;
+               -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                position: relative;
+                &::after{
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                height:100% ;
+                width: 8px;
+                background-color: $purple;
+                border-top-left-radius: 35px;
+                border-bottom-left-radius: 35px;
+                }
+                .award_wrap{
+                  display: flex;
+                  align-items: center;
+                  .award_img{
+                      padding: 10px 12px;
+                      background-color: $purple_light;
+                      border-radius: 50%;
+                      -webkit-border-radius: 50%;
+                      -moz-border-radius: 50%;
+                      -ms-border-radius: 50%;
+                      -o-border-radius: 50%;
+                       }
+                   .award_trxt{
+                        padding-left: 20px;
+                        h5{
+                            color: $purple;
+                            font-size: 22px;
+                            font-weight: 600;
+                        }
+                        h6{
+                            color: $black;
+                            font-size: 16px;
+                            font-weight: 400;
+                            padding-top: 8px;
+                        }
+                       }
+                }
+           
+               p{
+                color: $text;
+                font-size: 16px;
+                font-family: $robot;
+                line-height: 24px;
+                padding-top: 10px;
+               }
+           }
+    }
+}

@@ -1,0 +1,81 @@
+.journal{
+  padding: 130px 0;
+  .journal_head{
+    h4{
+        color: $pink;
+        font-size: 24px;
+        font-weight:700;
+        font-family: $robot;
+        text-transform: uppercase;
+    }
+    h5{
+        color: $black;
+        font-size: 36px;
+        font-weight:700;
+        padding-top: 28px;
+    }
+}
+.journal_wrapper{
+      padding-top: 85px;
+    .journal_item{
+        position: relative;
+        .journal_img{
+            img{
+                width: 100%;
+                border-radius: 15px ;
+                -webkit-border-radius: 15px ;
+                -moz-border-radius: 15px ;
+                -ms-border-radius: 15px ;
+                -o-border-radius: 15px ;
+            }
+        }
+        .journal_content{
+            padding: 15px 30px 10px 30px;
+            background-color: $pink;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+             h5{
+                font-size: 14px;
+                color: $white;
+                font-weight: 400;
+                font-family: $robot;
+                text-transform: uppercase;
+                span{
+                    padding-right: 10px;
+                }
+            }
+        }
+
+    }
+    .journal_text{
+        padding: 60px 40px 0 40px;
+        h4{
+            font-size: 22px;
+            color: $black;
+            font-weight: 600;
+            line-height: 38px;
+        }
+        p{
+            font-size: 16px;
+            color: $text;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+}
+}

@@ -1,0 +1,105 @@
+.testimonial{
+    padding: 130px 0;
+    .testimonial_head{
+        h4{
+            color: $pink;
+            font-size: 24px;
+            font-weight:700;
+            font-family: $robot;
+            text-transform: uppercase;
+        }
+        h5{
+            color: $black;
+            font-size: 36px;
+            font-weight:700;
+            padding-top: 30px;
+        }
+    }
+.testimonial_slider{
+    position: relative;
+    .prev{
+        font-size: 28px;
+        cursor: pointer;
+        color: $white;
+        position: absolute;
+        top: 65%;
+        left: 3%;
+        z-index: 999;
+        transform: translateY(-65%);
+        -webkit-transform: translateY(-65%);
+        -moz-transform: translateY(-65%);
+        -ms-transform: translateY(-65%);
+        -o-transform: translateY(-65%);
+}
+.next{
+    font-size: 28px;
+    cursor: pointer;
+    color: $white;
+    position: absolute;
+    top: 65%;
+    right: 3%;
+    z-index: 999;
+    transform: translateY(-65%);
+    -webkit-transform: translateY(-65%);
+    -moz-transform: translateY(-65%);
+    -ms-transform: translateY(-65%);
+    -o-transform: translateY(-65%);
+}
+    .testmonial_wrapper{
+        background-image: $bg_gradiyent;
+        padding: 125px 0 60px 0;
+        margin-top: 135px;
+        .testimonail_wrap{
+            .queto{
+                margin-top: -50px;
+                img{
+                    width: 100%;
+                }
+            }
+            p{
+                color: $white;
+                font-size: 16px;
+                font-family: $robot;
+                line-height: 26px;
+                font-weight: 400;
+            }
+            .testimonial_img{
+                margin-top: -260px;
+                img{
+                    width: 110%;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+}
+            }
+            .img_text{
+                text-align: center;
+                h3{
+                    color: $white;
+                    font-size: 22px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    padding-top: 40px;
+                }
+                p{
+                    color: $white;
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-family: $robot;
+                    padding-top: 20px;
+                }
+                ul{
+                    li{
+                        display: inline-block;
+                        padding: 0 2px;
+                        color: goldenrod;
+                    }
+                }
+            }
+        }
+    }
+}
+    
+}

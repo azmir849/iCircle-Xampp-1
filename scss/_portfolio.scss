@@ -1,0 +1,124 @@
+.portfolio{
+    padding: 130px 0;
+    .portfolio_head{
+        h4{
+            color: $pink;
+            font-size: 24px;
+            font-weight:700;
+            font-family: $robot;
+            text-transform: uppercase;
+        }
+        h5{
+            color: $black;
+            font-size: 36px;
+            font-weight:700;
+            padding-top: 32px;
+        }
+    }
+    .portfolio_wrapper{
+            .portfolio_btn{
+                 padding-top: 80px;
+                ul{
+                    li{
+                        margin:0 15px;
+                        display: inline-block;
+                        padding: 8px 30px;
+                        border: 1px solid #d3d3d3;
+                        color: $black;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        font-weight:500;
+                        border-radius:10px ;
+                        -webkit-border-radius:10px ;
+                        -moz-border-radius:10px ;
+                        -ms-border-radius:10px ;
+                        -o-border-radius:10px ;
+                        cursor: pointer;
+                        &:hover{
+                            color: $pink;
+                            border: 1px solid $purple;
+                        }
+}
+                }
+            }
+            .portfolio_content{
+                padding-top: 60px;
+            .portfolio_item{
+                    position: relative;
+                    &:hover .portfolio_overly{
+                        opacity: 1;
+                        transition: all linear .5s;
+                        -webkit-transition: all linear .5s;
+                        -moz-transition: all linear .5s;
+                        -ms-transition: all linear .5s;
+                        -o-transition: all linear .5s;
+                        cursor: pointer;
+}
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+            }
+            .middle{
+                width: 93%;
+            }
+            .portfolio_overly{
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   height: 100%;
+                   width:100%;
+                   background-color: rgba(0,0,0,0.6);
+                   border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    opacity: 0;
+                    span{
+                        i{
+                            font-size: 20px;
+                            color: $white;
+                            padding: 10px 10px;
+                            background-color: $purple;
+                            border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -ms-border-radius: 50%;
+                            -o-border-radius: 50%;
+                            position: absolute;
+                            top: 10%;
+                            right: 10%;
+                         }
+                    }
+                    h4{
+                        font-size: 24px;
+                        color: $white;
+                        font-weight: 600;
+                        position: absolute;
+                        bottom:10%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        -webkit-transform: translateX(-50%);
+                        -moz-transform: translateX(-50%);
+                        -ms-transform: translateX(-50%);
+                        -o-transform: translateX(-50%);
+}
+            }
+            .middle_overly{
+                width: 93% ;
+                left: 50% ;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+}
+            }
+           
+            }
+    }
+}

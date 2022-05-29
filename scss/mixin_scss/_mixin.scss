@@ -1,0 +1,32 @@
+@mixin button{
+    padding: 16px 45px;
+    background-image: $bg_gradiyent;
+    color: $white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer; 
+    &:hover{
+     background-image: $bg_row;
+     transition: all linear .5s;
+     -webkit-transition: all linear .5s;
+     -moz-transition: all linear .5s;
+     -ms-transition: all linear .5s;
+     -o-transition: all linear .5s;
+}
+}
+@mixin play{
+               font-size: 40px;
+                color: $pink;
+                padding: 10px;
+                border-radius: 50%;
+                background-color: $white;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+}

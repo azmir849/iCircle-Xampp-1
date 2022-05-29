@@ -1,0 +1,76 @@
+/*<><><><><><><<><><><><><<><><><><>
+Template Name: Lana Doe
+Template URL : 
+Description  :
+Author       : Fahim Ahmed
+Author URL   :
+Version      : 1.1.1
+
+<><><><><><><<><><><><><<><><><><>*/
+
+/*<><><><><><><<><><><><><<><><><><>
+
+
+       HTML  INDEX LIST
+    -------------------------
+
+01.  Header
+02.  Offcan
+04.  Banner
+05.  About
+06.  Resume
+07.  Skill
+08.  Language
+09.  Service
+10.  Portfolio
+11.  Interest
+12.  Appointment
+13.  Journal
+13.  Award
+13.  Testimonial
+13.  Partner
+13.  Contact
+13.  Footer
+14. Back to Top
+
+<><><><><><><<><><><><><<><><><><>*/
+
+
+
+/*     Google Font Connections
+<><><><<><<><><<><><><><><><<><><><>*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/*      SCSS Pages Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+@import "../scss/common_css/common";
+
+@import "../scss/mixin_scss/mixin";
+
+@import "../scss/variable_scss/variable";
+
+
+
+
+/*     SCSS Sections Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+@import "../scss/header";
+@import "../scss/offcanvas";
+@import "../scss/banner";
+@import "../scss/about";
+@import "../scss/resume";
+@import "../scss/skill";
+@import "../scss/language";
+@import "../scss/service";
+@import "../scss/portfolio";
+@import "../scss/interest";
+@import "../scss/appointment";
+@import "../scss/journal";
+@import "../scss/award";
+@import "../scss/testimonial";
+@import "../scss/partner";
+@import "../scss/contact";
+@import "../scss/footer";
+@import "../scss/backtotop";
+
